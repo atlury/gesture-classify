@@ -252,7 +252,7 @@ class CameraFragment : Fragment(), GestureClassifierHelper.ClassifierListener {
         // camera
         val cameraSelector =
             CameraSelector.Builder()
-                .requireLensFacing(CameraSelector.LENS_FACING_FRONT).build()
+                .requireLensFacing(CameraSelector.LENS_FACING_BACK).build()
 
         // Preview. Only using the 4:3 ratio because this is the closest to our models
         preview =
